@@ -1,0 +1,66 @@
+body {
+    font-family: 'Pacifico',cursive;
+    font-weight: 300;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff; /* Light background color */
+    background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: auto;
+    color:#ffffff; /* Default text color */
+}
+
+label {
+    font-family: 'Pacifico',cursive;
+    display: block;
+    margin-bottom: 8px; /* Increased bottom margin for more spacing */
+    color: #ffffff; /* Slightly darker label text color */
+}
+
+input, select {
+    font-family: 'Pacifico',cursive;
+    margin-bottom: 12px;
+    font-weight: 300; /* Increased bottom margin for more spacing */
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    width: 200px;
+}
+
+button {
+    font-family: 'Pacifico',cursive;
+    padding: 12px 20px; /* Increased padding for a more substantial button */
+    font-weight: 300;
+    font-size: 20px; /* Larger font size for better visibility */
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output {
+    font-family: 'Pacifico';
+    margin-top: auto;
+    font-weight: bold;
+    color: #f44336; /* Red output text color for emphasis */
+    margin-bottom: 20px;
+    font-size: 20px; /* Larger font size for the output text */
+    text-align: center;
+    background-color: #eee8e8; /* Light red background with transparency */
+    padding: 16px;
+    border-radius: 8px;
+}
+footer {
+    padding: 10px; 
+    color: #080808;
+    text-align: center;
+
+}
